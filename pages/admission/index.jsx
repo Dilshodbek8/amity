@@ -3,7 +3,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import classes from "./Admission.module.scss";
 import MiniLayout from "../../components/MiniLayout/MiniLayout";
 import Links from "../../components/MiniNavigation/Links";
-import steps from "./data.json";
+import { default as steps } from "./data.json";
 import Features from "../../components/Features/Features";
 import Image from "next/image";
 import img from "../../public/media/images/admission.png";
