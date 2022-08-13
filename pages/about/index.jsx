@@ -6,7 +6,7 @@ import Links from "../../components/MiniNavigation/Links";
 import CapmusShow from "../../components/CapmusShow/CapmusShow";
 import rasm from "../../public/media/images/showbg.jpg";
 import Features from "../../components/Features/Features";
-import data from "./data.json";
+import { default as data } from "./data.json";
 const About = () => {
   const textData = data.text;
   const programsData = data.programs;
