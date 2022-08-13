@@ -1,0 +1,119 @@
+@import "styles/imports.scss";
+.tabsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  div[role="tabpanel"] {
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.054),
+      -2px 2px 20px 1px rgba(0, 0, 0, 0.054);
+    padding: 1.2rem; //18px
+  }
+  & > .MuiTabs-root {
+    width: 100%;
+    border-bottom: 2px solid $PrimaryYellow;
+    .MuiTab-root {
+      background: $PrimaryBlue;
+      color: $PrimaryYellow;
+      margin: 0;
+    }
+    .Mui-selected {
+      background: $PrimaryYellow;
+      color: $White;
+    }
+  }
+  .MuiTabs-indicator {
+    display: none;
+  }
+  .css-1ujnqem-MuiTabs-root {
+    align-items: flex-end;
+    @media (max-width: 50rem) {
+      //800px
+      .css-14q5kzx-MuiButtonBase-root-MuiTab-root {
+        padding: 0.3rem 0.5rem; //4.8px 8px
+        font-size: 0.8rem; //13px
+      }
+    }
+    .css-14q5kzx-MuiButtonBase-root-MuiTab-root {
+      min-height: 2.2rem; //35px
+    }
+    .MuiTabs-scroller {
+      overflow-x: auto !important;
+    }
+  }
+}
+.border {
+  .MuiTab-root {
+    border-right: 2px solid $White;
+  }
+}
+.programPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+
+  & > .MuiTabs-root {
+    text-align: center;
+    width: 100%;
+    .Mui-selected {
+      background: $PrimaryBlue;
+      color: $PrimaryYellow;
+    }
+    .MuiTabs-flexContainer {
+      justify-content: space-around;
+      gap: 0.5rem 0;
+      @media (max-width: 500px) {
+        flex-direction: column;
+        align-items: center;
+      }
+      @media (max-width: 600px) {
+        justify-content: space-between;
+      }
+
+      button {
+        padding: 0.9rem 3rem; // 14.4px 48px
+        width: 25%;
+        border-radius: 2rem; //32px
+        font-family: "Cormorant";
+        font-weight: 700;
+        font-size: 1rem; //16px
+        line-height: 1.8rem; //29px
+        letter-spacing: -0.01em;
+        @media (max-width: 800px) {
+          padding: 0.6rem 2rem; //10px  32px
+          font-size: 1rem; //16px
+        }
+        @media (max-width: 550px) {
+          width: 30%;
+        }
+        @media (max-width: 500px) {
+          padding: 0.4rem 0.2rem; //6.4px 3.2px
+          font-size: 1rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .MuiTab-root {
+    background: $PrimaryYellow;
+    color: $PrimaryBlue;
+    margin: 0;
+  }
+
+  .MuiTabs-indicator {
+    display: none;
+  }
+  .css-1ujnqem-MuiTabs-root {
+    @media (max-width: 800px) {
+      .css-14q5kzx-MuiButtonBase-root-MuiTab-root {
+        padding: 0.3rem 0.5rem; //4.8px 8px
+        font-size: 0.8rem; //12.8px
+      }
+    }
+    .css-14q5kzx-MuiButtonBase-root-MuiTab-root {
+      min-height: 2.2rem; //35px
+    }
+  }
+}

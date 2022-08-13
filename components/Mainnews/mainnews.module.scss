@@ -1,0 +1,35 @@
+@import "../../styles/imports.scss";
+
+.bigCard {
+  background-color: #ccc;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.5;
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 15px;
+    p {
+      color: white;
+      font-size: 1.5rem;
+      padding-top: 10px;
+    }
+    .dat_categ {
+      display: flex;
+      p {
+        font-size: 1rem;
+        background-color: $PrimaryBlue;
+        color: $PrimaryYellow;
+        text-transform: uppercase;
+        padding: 5px;
+        &:last-child {
+          background-color: $PrimaryYellow;
+          color: $PrimaryBlue;
+        }
+      }
+    }
+  }
+}

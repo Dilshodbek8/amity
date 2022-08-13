@@ -1,0 +1,12 @@
+@import "../../styles/imports.scss";
+.texts {
+  h1 {
+    padding: 15px 0;
+    color: $PrimaryBlue;
+    font-size: 3rem;
+  }
+  p {
+    padding: 5px 0;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../styles/imports.scss";
+
+.texts {
+  h1 {
+    padding-bottom: 20px;
+    color: $PrimaryBlue;
+  }
+
+  .desc {
+    padding: 15px 0;
+    line-height: 1.7rem;
+  }
+}

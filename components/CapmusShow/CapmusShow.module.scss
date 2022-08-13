@@ -1,0 +1,90 @@
+@import "../../styles//imports.scss";
+.showWrap {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  background-color: #0055b8;
+  color: white;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .image {
+    width: 25rem;
+    height: 100%;
+  }
+
+  .text {
+    width: 68%;
+
+    .underline {
+      width: 100px;
+      height: 4px;
+      background: $PrimaryYellow;
+      border-radius: 10px;
+      margin: 5px 0;
+    }
+
+    h5 {
+      padding: 5px 0;
+    }
+    h1 {
+      padding: 15px 0;
+      font-weight: 200;
+      text-transform: uppercase;
+      font-family: serif;
+      letter-spacing: 5px;
+    }
+
+    p {
+      line-height: 30px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .showWrap {
+    flex-wrap: wrap;
+    .image {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 550px;
+        height: 300px;
+      }
+    }
+    .text {
+      width: 100%;
+      text-align: center;
+      p {
+        font-size: 0.9rem;
+        line-height: 20px;
+        padding: 10px 0;
+      }
+      .underline {
+        margin: 5px auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .showWrap {
+    .image {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+    .text {
+      h1 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "amity-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "gc": "plop component",
+    "gp": "plop page",
+    "prettier": "prettier --write .",
+    "format": "npm run lint && npm run prettier",
+    "i18n": "i18next-scanner"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.7.0",
+    "audit": "^0.0.6",
+    "classnames": "^2.3.1",
+    "i18next": "^21.8.3",
+    "next": "12.1.6",
+    "next-i18next": "^11.0.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.31.3",
+    "react-input-mask": "^2.0.4",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "i18next-scanner": "^1.2.1",
+    "plop": "^3.1.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.51.0"
+  }
+}

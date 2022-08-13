@@ -1,0 +1,10 @@
+@import "../../styles/imports.scss";
+.texts {
+  h1 {
+    color: $PrimaryBlue;
+  }
+  p {
+    padding: 10px 0;
+    line-height: 25px;
+  }
+}

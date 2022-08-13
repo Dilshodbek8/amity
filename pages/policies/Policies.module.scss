@@ -1,0 +1,25 @@
+.head {
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 30px;
+  }
+  p {
+    padding: 15px 0;
+    font-size: 20px;
+  }
+}
+
+.body {
+  ul {
+    li {
+      list-style: circle;
+      padding: 5px 0;
+      a {
+        color: #006fc4;
+        text-decoration: underline;
+        font-weight: 700;
+      }
+    }
+  }
+}

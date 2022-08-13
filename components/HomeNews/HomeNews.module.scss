@@ -1,0 +1,8 @@
+@import "../../styles/imports";
+.home__news {
+  text-align: center;
+  & > p {
+    text-transform: uppercase;
+    color: $SecondaryBlue;
+  }
+}

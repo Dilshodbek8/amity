@@ -1,0 +1,43 @@
+@import "../../styles/imports.scss";
+
+.slider__text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  right: 8rem;
+  text-align: end;
+  color: white;
+  z-index: 2;
+  font-family: "Cormorant", serif;
+  h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  a {
+    background-color: $PrimaryYellow;
+    padding: 0.8rem 1.4rem;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 10rem;
+    text-transform: uppercase;
+    color: $PrimaryBlue;
+    font-weight: 700;
+    font-family: serif;
+  }
+}
+@media (max-width: 900px) {
+  .slider__text {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .slider__text {
+    width: 95%;
+    text-align: center;
+    right: 0;
+  }
+}

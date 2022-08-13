@@ -1,0 +1,17 @@
+{
+  "links": [
+    { "title": "Amity's Welcome", "href": "/about" },
+    { "title": "Founders", "href": "/founders" },
+    { "title": "Our Campus", "href": "/ourcampus" },
+    { "title": "Alumni", "href": "/alumni" },
+    { "title": "International Campus", "href": "/internationalcampus" },
+    { "title": "Policies", "href": "/policies" }
+  ],
+  "links2": [
+    { "title": "Application Process", "href": "/" },
+    { "title": "Scholarship", "href": "/" },
+    { "title": "International Students", "href": "/" },
+    { "title": "Accommodation ", "href": "/" },
+    { "title": "Transfer to Amity", "href": "/" }
+  ]
+}

@@ -1,0 +1,109 @@
+@import "../../../../styles/imports.scss";
+
+.footer__container {
+  background-color: $PrimaryBlue;
+  padding: 1rem 5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  &__item {
+    width: 20%;
+    color: white;
+
+    &:first-child {
+      width: 30%;
+
+      p {
+        margin: 0.2rem 0;
+      }
+    }
+
+    ul {
+      padding: 0;
+
+      li {
+        padding: 0.3rem 0;
+        border-bottom: 2px solid transparent;
+        transition: 0.4s;
+
+        &:hover {
+          border-color: $PrimaryYellow;
+        }
+      }
+    }
+
+    h1 {
+      text-transform: uppercase;
+      color: $PrimaryYellow;
+      font-family: serif;
+      font-weight: 200;
+      border-bottom: 2px solid $PrimaryYellow;
+    }
+
+    &__info {
+      display: grid;
+      grid-template-columns: 1fr 10fr;
+      column-gap: 0.5rem;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin: 0.3rem 0;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  flex-wrap: wrap;
+  border-bottom: 1px solid $PrimaryYellow;
+  border-top: 1px solid $PrimaryYellow;
+}
+
+@media (max-width: 1030px) {
+  .footer__item {
+    width: 45%;
+
+    &:first-child {
+      width: 45%;
+    }
+  }
+
+  .footer__bottom {
+    a {
+      width: 24%;
+    }
+  }
+}
+@media (max-width: 630px) {
+  .footer__item {
+    width: 90%;
+    margin: 0 auto;
+
+    &:first-child {
+      width: 90%;
+    }
+  }
+
+  .footer__bottom {
+    a {
+      width: 90%;
+      margin: 0 auto;
+    }
+    border-bottom: none;
+  }
+}
+@media (max-width: 400px) {
+  .footer__container {
+    padding: 0 0.7rem;
+  }
+}

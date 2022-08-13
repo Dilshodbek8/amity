@@ -1,0 +1,37 @@
+@import "../../styles/imports";
+.news__detailed {
+  height: 100;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  background-position: left center;
+  background-repeat: no-repeat;
+  // width: 60rem;
+
+  &__text {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 1rem;
+    font-weight: 600;
+
+    h1 {
+      margin: 0.5rem 0;
+    }
+
+    &__data {
+      background-color: $PrimaryBlue;
+      color: $PrimaryYellow;
+      display: inline-block;
+      padding: 0.3rem;
+      text-transform: uppercase;
+    }
+
+    &__category {
+      background-color: $PrimaryYellow;
+      color: $PrimaryBlue;
+      display: inline-block;
+      padding: 0.3rem;
+      text-transform: uppercase;
+    }
+  }
+}

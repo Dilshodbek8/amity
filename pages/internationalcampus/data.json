@@ -1,0 +1,32 @@
+{
+  "head": {
+    "image": "ourcampus.png",
+    "desc": "Established over 30 years ago, we’re proud to be a leading education group. From pre-schools to Ph.D. level, we offer globally bench-marked education, with campuses across Dubai, London, Singapore, New York and China – with plans to extend to an additional 25 countries. We are home to over 170,000 students worldwide, with a strong focus on developing ground-breaking innovations in science and technology. Our world-class facilities, infrastructure and record job offers have resulted in our institutes becoming part of the most sought after education destinations."
+  },
+
+  "body": [
+    {
+      "heading": "Amity Globally",
+      "title": "Amity University, Dubai",
+      "desc": "Our world-class education and research, together with our renowned faculty members enable our students to become forward-thinking individuals, who are not only ready, but eager to change the world for the better. We’re proud to have over 60,000 alumni and be linked to over 80 global universities and research partners."
+    },
+    {
+      "heading": "Our Mission",
+      "desc": "Our world-class education and research, together with our renowned faculty members enable our students to become forward-thinking individuals, who are not only ready, but eager to change the world for the better. We’re proud to have over 60,000 alumni and be linked to over 80 global universities and research partners."
+    },
+    {
+      "heading": "Our Vision ",
+      "desc": "Our world-class education and research, together with our renowned faculty members enable our students to become forward-thinking individuals, who are not only ready, but eager to change the world for the better. We’re proud to have over 60,000 alumni and be linked to over 80 global universities and research partners."
+    },
+    {
+      "heading": "Our Values ",
+      "values": [
+        "We aim to provide educational opportunities for all",
+        "We believe in the advancement and protection of knowledge",
+        "The protection of rights and the freedom of individuals and respect for diversity",
+        "Excellence in the individual achievements of staff and students, supported by the university in reaching their personal goals",
+        "We’re committed to health, well-being, sustainability and the sustainable development of the community      "
+      ]
+    }
+  ]
+}

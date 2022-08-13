@@ -1,0 +1,31 @@
+@import "../../styles/imports.scss";
+.content {
+  background-color: $PrimaryGray;
+  min-height: 100vh;
+}
+.body {
+  background-image: url("/media/images/amity.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 18.75rem; //300px
+  padding-top: 8rem;
+  &__paper {
+    background-color: #fff;
+    transform: translateY(-200px);
+    position: relative;
+    padding: 1.3rem;
+
+    &__mid {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 2rem;
+      &__lt {
+        width: 30%;
+      }
+      &__rt {
+        width: 70%;
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "head": {
+    "title": "Amity International School operates a number of policies and regulations to guarantee the safety and wellbeing of its pupils, staff and wider community.",
+    "desc": "Our policies also help us pursue our mission and goals and ensure we provide the best possible care to all children.Our key policies and documents are available for you to view below.  Should you have any questions regarding any of our policies, please email info@amityabudhabi.ae."
+  },
+  "policy": [
+    {
+      "heading": "Our Policies",
+      "link": "https://fake/link",
+      "text": " Safeguarding and Child Protection Policy"
+    },
+    {
+      "link": "https://fake/link",
+      "text": "Cyber Safety Policy"
+    },
+    {
+      "link": "https://fake/link",
+      "text": "Uniform Policy"
+    },
+    {
+      "link": "https://fake/link",
+      "text": "Anti-bullying Policy"
+    },
+    {
+      "link": "https://fake/link",
+      "text": " Healthy Eating Guidelines"
+    },
+    {
+      "link": "https://fake/link",
+      "text": " Tuition Fees Policy"
+    },
+    {
+      "link": "https://fake/link",
+      "text": " Admissions Policy"
+    },
+    {
+      "link": "https://fake/link",
+      "text": "  Complaints Policy"
+    }
+  ],
+  "forms": [
+    {
+      "heading": "Useful Forms",
+      "link": "https://fake/link",
+      "text": " Early Pickup Form"
+    },
+    {
+      "link": "https://fake/link",
+      "text": "  Planned Absence Request"
+    }
+  ]
+}

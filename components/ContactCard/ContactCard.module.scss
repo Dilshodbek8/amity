@@ -1,0 +1,43 @@
+@import "../../styles/imports.scss";
+
+.contact__card {
+  display: flex;
+  gap: 1.25rem; //20px
+  align-items: center;
+  width: 100%;
+  border-radius: 1.875rem; //30px
+  margin: 0.1rem;
+  padding: 0.7rem 1rem;
+  background: $ContactCardBg;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.08);
+  &--left {
+    width: 3rem;
+    height: 3rem;
+    img {
+      min-width: 3rem;
+      min-height: 3rem;
+    }
+  }
+  &--right {
+    &-title {
+      margin: 0;
+      margin-bottom: 0.1rem;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.2rem; //19.2px
+      line-height: 2rem;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: $PrimaryBlue;
+      font-family: "Dubai";
+    }
+    &-link {
+      font-family: "Dubai";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.1rem; //17.6px
+      line-height: 1.2rem; //19.2px
+      color: $PrimaryBlue;
+    }
+  }
+}

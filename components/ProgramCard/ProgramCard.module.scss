@@ -1,0 +1,82 @@
+@import "../../styles/imports.scss";
+
+.program__card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  max-width: 15rem; //240px
+  overflow: hidden;
+  justify-content: space-between;
+  margin: 0 auto;
+  @media (max-width: 720px) {
+    max-width: 22rem; //360px
+  }
+  @media (max-width: 500px) {
+    max-width: 31rem; //500px
+  }
+  .top_img {
+    max-width: 5rem;
+    max-height: 5rem;
+    @media (max-width: 736px) {
+      max-width: 7rem;
+      max-height: 7rem;
+    }
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+  h4 {
+    font-family: "Dubai";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem; //17.6px
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: $PrimaryBlue;
+    margin-bottom: 0;
+    padding: 1rem 0;
+    padding-top: 1.5rem; //24px
+    @media (max-width: 800px) {
+      font-size: 1rem;
+    }
+  }
+  .description {
+    font-family: "Dubai";
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .center-line {
+    position: relative;
+    padding-bottom: 0.7rem; //11.2px
+    &::before {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      height: 4px;
+      left: 50%;
+      width: 100px;
+      transform: translateX(-50%);
+      background-color: $PrimaryYellow;
+    }
+  }
+  .description.big {
+    font-size: 2rem;
+    color: $PrimaryBlue;
+    @media (max-width: 1200px) {
+      font-size: 1.8rem; //40px
+    }
+    @media (max-width: 800px) {
+      font-size: 1.6rem;
+    }
+  }
+  .description {
+    font-size: 1.1rem; //17.6px
+    color: $TextColor;
+  }
+}

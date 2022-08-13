@@ -1,0 +1,36 @@
+.body {
+  text-align: center;
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    gap: 0.5rem;
+  }
+  &__card {
+    width: 24%;
+  }
+}
+@media (max-width: 1000px) {
+  .body__card {
+    width: 45%;
+  }
+}
+@media (max-width: 670px) {
+  .body__card {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 550px) {
+  .body {
+    &__card {
+      width: 100%;
+      margin: 0 auto;
+    }
+    &__cards {
+      width: 100%;
+      padding: 2rem;
+    }
+  }
+}

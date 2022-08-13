@@ -1,0 +1,22 @@
+{
+  "news": [
+    {
+      "date": "22 feb 2022",
+      "img": "https://s3-alpha-sig.figma.com/img/ad67/7cc4/d2691b11d32464e2f64d03857a0f31ab?Expires=1661126400&Signature=D19L06qHfaAhpU0x4rv2mmkqeYjiGBBfsTPhoEjnfCvDT1P2Hp7yMA9TDcAzgESwwfDaiL8yd4-uHQBt8CT16aPjJ1WXBKrkK6F9iEtOhNwk0-XedPDDVj3PL0ixQqRRyPu~H1faZx01~oqxOhVEyo~fdhM40oiVLcQRV0C4gKosfflWsh23Us9a36Wg7HEPGIRVTzJYb-cMvxQRRSPmD5ce5FKwU6K7TRIl885PZ7jquoKBMvEqyXqDLCIqmyZHk8Qmu6JMTAx5DjLbfhlRDhKSqOO1OH4EOoIpJpHW0jV-tGeQfBqd8RtuMbi40hMctU0GPCiGuZDOln5t7UuFmg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "categ": "Admission",
+      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "date": "22 feb 2022",
+      "img": "https://s3-alpha-sig.figma.com/img/ad67/7cc4/d2691b11d32464e2f64d03857a0f31ab?Expires=1661126400&Signature=D19L06qHfaAhpU0x4rv2mmkqeYjiGBBfsTPhoEjnfCvDT1P2Hp7yMA9TDcAzgESwwfDaiL8yd4-uHQBt8CT16aPjJ1WXBKrkK6F9iEtOhNwk0-XedPDDVj3PL0ixQqRRyPu~H1faZx01~oqxOhVEyo~fdhM40oiVLcQRV0C4gKosfflWsh23Us9a36Wg7HEPGIRVTzJYb-cMvxQRRSPmD5ce5FKwU6K7TRIl885PZ7jquoKBMvEqyXqDLCIqmyZHk8Qmu6JMTAx5DjLbfhlRDhKSqOO1OH4EOoIpJpHW0jV-tGeQfBqd8RtuMbi40hMctU0GPCiGuZDOln5t7UuFmg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "categ": "Admission",
+      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "date": "22 feb 2022",
+      "img": "https://s3-alpha-sig.figma.com/img/ad67/7cc4/d2691b11d32464e2f64d03857a0f31ab?Expires=1661126400&Signature=D19L06qHfaAhpU0x4rv2mmkqeYjiGBBfsTPhoEjnfCvDT1P2Hp7yMA9TDcAzgESwwfDaiL8yd4-uHQBt8CT16aPjJ1WXBKrkK6F9iEtOhNwk0-XedPDDVj3PL0ixQqRRyPu~H1faZx01~oqxOhVEyo~fdhM40oiVLcQRV0C4gKosfflWsh23Us9a36Wg7HEPGIRVTzJYb-cMvxQRRSPmD5ce5FKwU6K7TRIl885PZ7jquoKBMvEqyXqDLCIqmyZHk8Qmu6JMTAx5DjLbfhlRDhKSqOO1OH4EOoIpJpHW0jV-tGeQfBqd8RtuMbi40hMctU0GPCiGuZDOln5t7UuFmg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "categ": "Admission",
+      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  ]
+}

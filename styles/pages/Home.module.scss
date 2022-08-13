@@ -1,0 +1,87 @@
+@import "./../imports.scss";
+.home {
+  background-color: #fff;
+  &__programs {
+    background-color: $PrimaryYellow;
+    padding: 2.5rem 0;
+    &__cards {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+  }
+  &__news {
+    padding: 2rem 0;
+    background-color: $PrimaryGray;
+  }
+  &__info {
+    background-color: #fff;
+    padding: 3rem 0;
+    > div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__card {
+      width: 33%;
+    }
+  }
+  &__partners {
+    background-color: $PrimaryBlue;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top;
+    margin: 2rem 0;
+
+    &__image {
+      width: 15%;
+      height: 6.25rem;
+      position: relative;
+      img {
+        object-fit: contain;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .home__programs__cards {
+    flex-wrap: wrap;
+    div {
+      width: 45%;
+      &:last-child {
+        width: 100%;
+      }
+    }
+  }
+  .home__info__card {
+    width: 40%;
+    &:last-child {
+      width: 80%;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .home__programs__cards {
+    justify-content: center;
+    div {
+      width: 80%;
+      &:last-child {
+        width: 80%;
+      }
+    }
+  }
+  .home__info__card {
+    width: 80%;
+  }
+  .home__partners__image {
+    width: 30%;
+  }
+}
+@media (max-width: 510px) {
+  .home__partners__image {
+    width: 80%;
+  }
+}

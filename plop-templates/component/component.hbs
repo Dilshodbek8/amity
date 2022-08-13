@@ -1,0 +1,14 @@
+import classes from "./{{pascalCase name}}.module.scss";
+import cn from "classnames";
+
+const {{pascalCase name}} = ({ className }) => {
+  const classNames = cn(className);
+
+  return (
+    <div className={classNames}>
+        {{pascalCase name}}
+    </div>
+  );
+}
+
+export default {{pascalCase name}};

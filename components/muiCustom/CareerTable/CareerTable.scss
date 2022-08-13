@@ -1,0 +1,57 @@
+@import "styles/imports.scss";
+.career__table {
+  @media (max-width: 900px) {
+    th.MuiTableCell-body {
+      max-width: 12.5rem; //200px
+      min-width: 12.5rem;
+      padding: 0 !important;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+  .MuiPaper-root {
+    width: 100%;
+  }
+  .MuiTableRow-head {
+    background: $PrimaryBlue;
+    .MuiTableCell-sizeMedium {
+      color: $PrimaryYellow;
+      font-weight: 700;
+      font-size: 0.9rem; //17.6px
+      text-transform: uppercase;
+      @media (max-width: 800px) {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .MuiTableCell-body {
+    font-weight: 600;
+    font-size: 1rem; //17.6px
+    line-height: 2rem; //32px
+    color: $PrimaryBlue;
+    @media (max-width: 800px) {
+      font-size: 0.9rem;
+    }
+  }
+  .MuiTableCell-alignRight {
+    text-align: center;
+  }
+  .MuiButton-text {
+    background: $PrimaryYellow;
+    color: $PrimaryBlue;
+    padding: 0.5rem 2rem; //8px 40px
+    font-weight: 700;
+    font-size: 0.9rem; //17.6
+    line-height: 1.7rem; //27px
+    text-transform: uppercase;
+    border-radius: 12rem; //192px
+    &:hover {
+      background: $PrimaryBlue;
+      color: $PrimaryYellow;
+    }
+    @media (max-width: 800px) {
+      font-size: 1rem;
+      padding: 0.4rem 2rem; //6.4px 32px
+    }
+  }
+}

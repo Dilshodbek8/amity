@@ -1,0 +1,117 @@
+{
+  "mainSlider": [
+    {
+      "img": "/media/fakeimages/showcase2.jpg",
+      "title": "Inspiring adventure and confidence",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
+      "link": {
+        "title": "Apply",
+        "href": "/apply"
+      }
+    },
+    {
+      "img": "/media/fakeimages/myslider1.jpg",
+      "title": "Inspiring adventure and confidence",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
+      "link": {
+        "title": "Apply",
+        "href": "/apply"
+      }
+    },
+    {
+      "img": "/media/fakeimages/showcase3.jpg",
+      "title": "Inspiring adventure and confidence",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
+      "link": {
+        "title": "Apply",
+        "href": "/apply"
+      }
+    },
+    {
+      "img": "/media/fakeimages/myslider1.jpg",
+      "title": "Inspiring adventure and confidence",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
+      "link": {
+        "title": "Apply",
+        "href": "/apply"
+      }
+    },
+    {
+      "img": "/media/fakeimages/myslider1.jpg",
+      "title": "Inspiring adventure and confidence",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
+      "link": {
+        "title": "Apply",
+        "href": "/apply"
+      }
+    }
+  ],
+  "programs": [
+    {
+      "img": "https://s3-alpha-sig.figma.com/img/ed41/eb11/dce9dda6f4a9f02fe50a4e3806aab93f?Expires=1661126400&Signature=NlXrIkQR4OwLnXQp8hIdOCj~X33xgpmeA1eLTmUvc5BPq7j18nt1NzsQOTbonAO6W6vEbOtLK54nEjSmbfygERybB5HTAuibpUsvZTuxNnCNchm5biycB4EoTVPYbYkPQTUJHqpaF-0zPXAnxqCyzkjkROE9Oh~3MXOw7fXxC4yz~Tr1pXH3LRpf~HuCVPeEOK7bjTESqbX7ng1Wmx6OBYUSrnJXN6wex3mMXe27uloMuJInKkYcwrr7mER9dTyW5wNbxIlkYPq2H8XQA7YQa3BQe6LGk~OxOtGqKV~CteAnNogFuo81hKr1CylrltKlPVOs0qe016SZeTIhTaHdUA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "title": "undergraduate",
+      "link": "/#"
+    },
+    {
+      "img": "https://s3-alpha-sig.figma.com/img/c9fa/983f/6f72c39dbc7fbbc8d3d8f254abd553a3?Expires=1661126400&Signature=LFxQ3RQdS~1wv6RLXtowsby5G8ickYuz3QzWW9zHO37MfMp9Wc3yYrHVVWFAQVc7h8Gmk8uqbRRVao4Dk0gzYotSSSL4VL-1h9cZDCFH80cJoM~EzWyjx5I-Hb7XXrAGenGPiz~vA5C9r9YAuS~uzMp807gjS-ert1UXF4cySE6YgIVB~C1qq7XoDOxtXLhAk56TVpR598qM0JKC3--BAUbz0~FufyQemRTobu3vx2XpbnIfugXs~B44ugiUSWSQO8CcUXPZ2MFTXc7Y1dydnj7jgLiN4gFhPQ1qrODEM0a3Bb95ApDU97J8twyo876hpfVY9Ig~-TG7V5OXQc6VPQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "title": "Postgraduate",
+      "link": "/#"
+    },
+    {
+      "img": "https://s3-alpha-sig.figma.com/img/3861/a4ee/e6a688e424c534f84a8da7c14455e1a9?Expires=1661126400&Signature=fIVxHS7DW7HlRh7ynaXVRS7K5HulVJ9LdLtqm6vfS9UP2rFo80OHPYU6N6bqWPuJOw1ckkRBefpqtMEY7ooJY1ultvy8yXGBGci2wMnOpYaaJpE88JZRFLL4SzQIU7IoVlo8vLwOm0qCvhx8YdNAoMvnhGs7qp32Xw36SiqG8p25zjDyaTj58GZAc9URRgIr-yVnAv55aW-1w49IrqjeeUfN6jHyVhoCArUkX~25OsMRGoTgO-~OmCG3x9m38BwcUWBQ77ZnnK1HRLsQRZRNY51ys4a-oRSwpKQCJw14XX0M3RaVFnTJxsRZ8KQ34fdRNuzZSslGz0JcD1v-sZLNwA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "title": "International Foundation Program",
+      "link": "/#"
+    }
+  ],
+  "info": [
+    {
+      "title": "83%",
+      "text": "of recent graduates started new jobs",
+      "img": "info.png"
+    },
+    {
+      "title": "134",
+      "text": "Degree programs",
+      "img": "info2.png",
+      "primary": true
+    },
+    {
+      "title": "#1",
+      "text": "Most international university",
+      "img": "info3.png"
+    }
+  ],
+  "partners": [
+    "partner.png",
+    "partner2.png",
+    "partner3.png",
+    "partner4.png",
+    "partner5.png"
+  ],
+  "news": [
+    {
+      "date": "Wed May 18 2022 04:53:47 GMT+0500 (Uzbekistan Standard Time)",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "img": "news.jpg",
+      "categ": "Category"
+    },
+    {
+      "date": "Wed May 18 2022 04:53:47 GMT+0500 (Uzbekistan Standard Time)",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "img": "news.jpg",
+      "categ": "Category"
+    },
+    {
+      "date": "Wed May 18 2022 04:53:47 GMT+0500 (Uzbekistan Standard Time)",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "img": "news.jpg",
+      "categ": "Category"
+    },
+    {
+      "date": "Wed May 18 2022 04:53:47 GMT+0500 (Uzbekistan Standard Time)",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "img": "news.jpg",
+      "categ": "Category"
+    }
+  ]
+}

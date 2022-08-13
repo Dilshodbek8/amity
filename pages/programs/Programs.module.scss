@@ -1,0 +1,123 @@
+@import "../../styles/imports.scss";
+.program_head {
+  padding: 2rem 0;
+  @media (max-width: 720px) {
+    padding: 1.7rem 0 0 0;
+  }
+  @media (max-width: 500px) {
+    padding: 1.3rem 0 0 0;
+  }
+  @media (max-width: 360px) {
+    padding: 0;
+  }
+}
+.program {
+  &__head {
+    padding-top: 3rem; //80px
+    @media (max-width: 720px) {
+      padding-top: 2rem;
+    }
+    @media (max-width: 500px) {
+      padding-top: 1.5rem;
+    }
+    @media (max-width: 360px) {
+      padding-top: 1rem;
+    }
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2.5rem 0; //40px
+    @media (max-width: 736px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem; //48px
+    }
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+  }
+  &__desc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    @media (max-width: 736px) {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+    @media (max-width: 500px) {
+      text-align: center;
+    }
+    h3 {
+      font-family: "Cormorant";
+      color: $PrimaryBlue;
+      font-size: 2.25rem; //36px
+      padding-bottom: 1.25rem; //20px
+
+      @media (max-width: 500px) {
+        text-align: center;
+      }
+    }
+    p {
+      font-family: "Dubai";
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5rem; //24px
+      letter-spacing: -0.01em;
+      color: $TextColor;
+      padding: 1.25rem 0; //20px
+    }
+  }
+  &__cards2 {
+    &--top {
+      padding: 1rem 0;
+    }
+    &--body {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      justify-content: space-between;
+      @media (max-width: 736px) {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+      }
+      @media (max-width: 500px) {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+    }
+  }
+  &__bottom {
+    &--top {
+      padding: 2rem 0;
+    }
+  }
+  &__apply_btn {
+    width: 100%;
+    background: $PrimaryYellow;
+    color: $PrimaryBlue;
+    font-family: "Cormorant";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.7rem; //43px
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    transition: 0.5s;
+    margin: 1.5rem auto; //24px
+    &:hover {
+      background: $PrimaryYellow;
+      opacity: 0.8;
+      transform: translateY(-0.125rem);
+    }
+    @media (max-width: 736px) {
+      font-size: 1.5rem; //24px
+      line-height: 2rem;
+    }
+    @media (max-width: 560px) {
+      font-size: 1.3rem; //21px
+      line-height: 1.5rem; //24px
+    }
+  }
+}

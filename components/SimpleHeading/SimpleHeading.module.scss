@@ -1,0 +1,129 @@
+@import "../../styles/imports.scss";
+.primary {
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.primary h1 {
+  text-align: center;
+  color: $PrimaryBlue;
+  font-family: serif;
+  font-size: 35px;
+  position: relative;
+  width: 30rem;
+  margin: 0 auto;
+}
+
+.primary p {
+  color: $PrimaryBlue;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.primary .underline {
+  width: 150px;
+  height: 4px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 10px;
+  background: $PrimaryBlue;
+}
+
+.secondary {
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+}
+
+.secondary h1 {
+  color: $PrimaryBlue;
+  font-family: serif;
+  font-size: 35px;
+  position: relative;
+  width: 30rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.secondary .underline {
+  width: 150px;
+  height: 4px;
+  margin: 0 auto;
+  margin-top: 9px;
+  border-radius: 10px;
+  background: $PrimaryYellow;
+}
+
+.secondary p {
+  color: $PrimaryBlue;
+  font-size: 1rem;
+  margin-top: 1rem;
+  &::before {
+    display: none;
+  }
+}
+
+// @media (max-width:1024px){
+
+// }
+
+// @media (max-width: 767px) {
+//   .primary p {
+//     font-size: 22px;
+//     width: 85%;
+//   }
+
+//   .primary p::before {
+//     height: 3px;
+//     top: 30px;
+//   }
+
+//   .primary p:nth-child(2) {
+//     color: $PrimaryBlue;
+//     font-size: 12px;
+//     &::before {
+//       display: none;
+//     }
+//   }
+
+//   .secondary p:nth-child(2) {
+//     color: $PrimaryBlue;
+//     font-size: 12px;
+//     &::before {
+//       display: none;
+//     }
+//   }
+
+//   .secondary p {
+//     width: 85%;
+//   }
+// }
+
+// @media (min-width: 768px) and (max-width: 1024px) {
+//   .primary p {
+//     font-size: 28px;
+//   }
+
+//   .primary p::before {
+//     height: 3px;
+//     top: 35px;
+//   }
+
+//   .primary p:nth-child(2) {
+//     color: $PrimaryBlue;
+//     font-size: 15px;
+//     &::before {
+//       display: none;
+//     }
+//   }
+
+//   .secondary p:nth-child(2) {
+//     color: $PrimaryBlue;
+//     font-size: 15px;
+//     &::before {
+//       display: none;
+//     }
+//   }
+// }

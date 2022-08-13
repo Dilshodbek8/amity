@@ -1,0 +1,16 @@
+.body {
+  padding: 20px;
+  &__text {
+    padding: 40px 0;
+  }
+  h5 {
+    font-size: 26px;
+    padding: 10px 0;
+  }
+  ul {
+    padding-left: 15px;
+    li {
+      list-style: circle;
+    }
+  }
+}

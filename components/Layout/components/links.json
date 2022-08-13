@@ -1,0 +1,34 @@
+{
+  "navbar": [
+    { "title": "programs", "href": "/programs" },
+    { "title": "f.a.q", "href": "/faq" },
+    { "title": "apply", "href": "/apply" },
+    { "title": "news", "href": "/news" },
+    { "title": "about", "href": "/about" }
+  ],
+  "about-info": [
+    { "title": "Amity Welcomes", "href": "/" },
+    { "title": "Founders", "href": "/founders" },
+    { "title": "Our Campus", "href": "/ourcampus" },
+    { "title": "Alumni", "href": "/alumni" },
+    { "title": "International Campus", "href": "/internationalcampus" },
+    { "title": "Policies", "href": "/policies" }
+  ],
+  "admission-info": [
+    { "title": "Application Process", "href": "/apply" },
+    { "title": "Scholarship", "href": "/" },
+    { "title": "International Students", "href": "/studentslife" },
+    { "title": "Accomadation", "href": "/" }
+  ],
+  "information-info": [
+    { "title": "Transfer to Amity", "href": "/" },
+    { "title": "News & Events", "href": "/news" },
+    { "title": "Amity Global", "href": "/amityglobal" },
+    { "title": "Students Life", "href": "/studentslife" },
+    { "title": "Career Center", "href": "/career" },
+    { "title": "Incubation Centre", "href": "/ourcampus" },
+    { "title": "Students Abroad Program", "href": "/" },
+    { "title": "Student Affairs", "href": "/" },
+    { "title": "Career with Amity", "href": "/career" }
+  ]
+}
