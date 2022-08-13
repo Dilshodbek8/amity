@@ -2,7 +2,7 @@ import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import classes from "./Admission.module.scss";
 import MiniLayout from "../../components/MiniLayout/MiniLayout";
-import Links from "../../components/MiniNavigation/Links";
+import Links from "../../components/MiniNavigation/links.json";
 import { default as steps } from "./data.json";
 import Features from "../../components/Features/Features";
 import Image from "next/image";

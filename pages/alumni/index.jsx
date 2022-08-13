@@ -2,7 +2,7 @@ import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import classes from "./Alumni.module.scss";
 import MiniLayout from "../../components/MiniLayout/MiniLayout";
-import Links from "../../components/MiniNavigation/links";
+import Links from "../../components/MiniNavigation/links.json";
 import AppTabs from "../../components/muiCustom/AppTabs/AppTabs";
 import data from "./data.json";
 import Image from "next/image";

@@ -3,7 +3,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import classes from "./Ourcampus.module.scss";
 import data from "./data.json";
 import MiniLayout from "../../components/MiniLayout/MiniLayout";
-import Links from "../../components/MiniNavigation/links";
+import Links from "../../components/MiniNavigation/links.json";
 import Image from "next/image";
 const Ourcampus = () => {
   const text = data.text;
