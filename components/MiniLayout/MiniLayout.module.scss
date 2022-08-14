@@ -29,3 +29,14 @@
     }
   }
 }
+@media (max-width: 800px) {
+  .body__paper__mid {
+    flex-wrap: wrap;
+  }
+  .body__paper__mid__lt {
+    width: 100%;
+  }
+  .body__paper__mid__rt {
+    width: 100%;
+  }
+}
