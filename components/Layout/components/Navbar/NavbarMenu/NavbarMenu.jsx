@@ -27,8 +27,8 @@ const NavbarMenu = ({ className, onClick }) => {
           <h1>about us</h1>
           <ul>
             {data["about-info"].map((info, idx) => (
-              <li key={idx}>
-                <Link href={info.href} onClick={() => onClick(false)}>
+              <li key={idx} onClick={() => onClick(false)}>
+                <Link href={info.href}>
                   <a>
                     {info.title}
                     <Image src={Arrow} width="50" alt="top" />
@@ -42,8 +42,8 @@ const NavbarMenu = ({ className, onClick }) => {
           <h1>admission</h1>
           <ul>
             {data["admission-info"].map((info, idx) => (
-              <li key={idx}>
-                <Link href={info.href} onClick={() => onClick(false)}>
+              <li key={idx} onClick={() => onClick(false)}>
+                <Link href={info.href}>
                   <a>
                     {info.title}
                     <Image src={Arrow} width="50" alt="top" />
@@ -57,8 +57,8 @@ const NavbarMenu = ({ className, onClick }) => {
           <h1>information</h1>
           <ul>
             {data["information-info"].map((info, idx) => (
-              <li key={idx}>
-                <Link href={info.href} onClick={() => onClick(false)}>
+              <li key={idx} onClick={() => onClick(false)}>
+                <Link href={info.href}>
                   <a>
                     {info.title}
                     <Image src={Arrow} width="50" alt="top" />

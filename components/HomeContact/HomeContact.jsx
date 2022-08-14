@@ -29,7 +29,7 @@ const HomeContact = ({ className }) => {
             <form action="">
               <div className={classes.info__content__form__inputs}>
                 <InputText placeholder="Your name" radius />
-                <InputText fullWidth placeholder="Your name" radius />
+                <InputText fullWidth placeholder="Subject title" radius />
               </div>
               <InputTextArea placeholder={"Your message"} />
 
