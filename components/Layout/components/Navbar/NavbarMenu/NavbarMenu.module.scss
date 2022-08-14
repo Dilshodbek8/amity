@@ -4,7 +4,7 @@
   background: url("../../../../../public/media/images/menu-bg.png");
   background-size: cover;
   background-position: right;
-  padding: 1rem 5rem;
+  padding: 1rem 1rem;
   img {
     cursor: pointer;
   }
@@ -20,6 +20,7 @@
     button {
       background-color: transparent;
       border: none;
+      padding: 0.1rem 5rem;
     }
   }
 

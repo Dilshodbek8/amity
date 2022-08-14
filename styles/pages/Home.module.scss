@@ -67,14 +67,17 @@
   .home__programs__cards {
     justify-content: center;
     div {
-      width: 80%;
+      width: 90%;
       &:last-child {
-        width: 80%;
+        width: 90%;
       }
     }
   }
   .home__info__card {
-    width: 80%;
+    width: 90%;
+    &:last-child {
+      width: 90%;
+    }
   }
   .home__partners__image {
     width: 30%;

@@ -165,3 +165,9 @@ $fontsize: (
 button {
   cursor: pointer;
 }
+@media (max-width: 400px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

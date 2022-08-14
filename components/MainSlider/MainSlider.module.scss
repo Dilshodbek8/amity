@@ -17,6 +17,7 @@
 }
 @media (max-width: 700px) {
   .slider {
+    font-size: 16px;
     &__item {
       height: calc(60vh - 5rem);
     }

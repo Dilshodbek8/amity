@@ -12,7 +12,10 @@ const NavbarMenu = ({ className, onClick }) => {
   return (
     <div className={classNames}>
       <div className={classes["menu__navbar__top"]}>
-        <button onClick={() => onClick(false)}>
+        <button
+          className={classes["menu__navbar__top-btn"]}
+          onClick={() => onClick(false)}
+        >
           <Image src={Exit} alt="x" />
         </button>
       </div>
