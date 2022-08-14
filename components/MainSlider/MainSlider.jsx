@@ -1,8 +1,8 @@
 import classes from "./MainSlider.module.scss";
 import Slider from "react-slick";
-import SliderCard from "../SliderCard/SliderCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import SliderCard from "../SliderCard/SliderCard";
 
 const MainSlider = ({ className, data }) => {
   const settings = {
